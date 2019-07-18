@@ -1,0 +1,83 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+#body{
+	/*background-color: violet;*/
+	background-image: radial-gradient(red 5%, yellow 15%, green 60%);
+}
+main{
+	position: relative;
+}
+.face{
+	width: 500px;
+	height: 500px;
+	background-color: yellow;
+	background-image: linear-gradient(purple, violet, white);
+	border-radius: 50%;
+	position: absolute;
+	margin-left: 400px;
+}
+.eye-left{
+	width: 40px;
+	height: 40px;
+	background: blue;
+	border-radius: 50%;
+	position: relative;
+	top: 150px;
+	left: 130px;
+}
+.eye-right{
+	width: 40px;
+	height: 40px;
+	background: blue;
+	border-radius: 50%;
+	position: relative;
+	top: 120px;
+	left: 330px;
+}
+.nose{
+	width: 0; 
+  	height: 0; 
+  	border-left: 25px solid transparent;
+  	border-right: 25px solid transparent;
+  	border-top: 25px solid orange;
+  	position: absolute;
+  	left: 230px;
+  	top: 270px;
+}
+.mouth{
+	width: 90px;
+	height: 30px;
+	background: red;
+	border-radius: 50%;
+	position: relative;
+	top: 300px;
+	left: 200px;
+}
+.ear-left{
+	width: 25px;
+	height: 70px;
+	background: orange;
+	border-radius: 70%;
+	position: relative;
+	top: 100px;
+	left: -20px;
+}
+.ear-right{
+	width: 25px;
+	height: 70px;
+	background: orange;
+	border-radius: 70%;
+	position: relative;
+	top: 40px;
+	left: 490px;
+}
+.heart{
+	width: 100px;
+	height: 400px;
+	top: 700px;
+	left: 200px;
+	background-color: transparent;
+}
